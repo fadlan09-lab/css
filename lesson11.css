@@ -1,0 +1,195 @@
+/*11a.*/
+.grid-a {
+  display: grid;
+  grid-template-columns: 200px 75px;
+  
+}
+
+/*11.b*/
+.grid-b {
+  display: grid;
+  grid-template-columns: 50px 2fr 75px;
+}
+
+/*11c.*/
+.grid-container {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.grid-item {
+  background-color: pink;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-family: Arial;
+}
+
+/*11.c*/
+.grid-c {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: aqua;
+}
+
+.space {
+  padding-left: 10px;
+}
+
+/*11d.*/
+
+.space {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-ig {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.ig {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+ font-family: 'Roboto', sans-serif;
+}
+
+.keterangan {
+    padding-left:5px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ig-animal {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+    margin-left: 15px;
+}
+
+.profile-animal {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+
+}
+
+.mutual-friend {
+  display: flex;
+}
+
+.mutual-pic {
+  padding-left: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.keterangan {
+    padding-left:5px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ig-kucing {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+}
+
+.profile-kucing {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+}
+
+.keterangan {
+    padding-left:5px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.grit-d {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

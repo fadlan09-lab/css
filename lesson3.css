@@ -1,0 +1,51 @@
+[class^="l3-"] {
+    cursor: pointer;
+    transition: all 0.15s;
+    border: none;
+}
+
+.l3-request { background-color: black; color: white; width: 120px; height: 50px; }
+.l3-request:hover { opacity: 0.7; }
+
+.l3-amazon { background-color: rgb(255, 216, 20); width: 150px; height: 35px; border-radius: 50px; }
+.l3-amazon:hover { background-color: rgb(240, 190, 10); }
+
+.l3-github { background-color: rgb(46, 164, 79); color: white; width: 90px; height: 50px; border-radius: 5px; }
+.l3-github:hover { background-color: rgb(30, 120, 55); }
+
+.l3-bootstrap { background-color: rgb(121, 82, 179); color: white; width: 120px; height: 50px; border-radius: 3px; }
+.l3-bootstrap:hover { background-color: rgb(90, 50, 150); }
+
+.l3-download {
+    background-color: white; color: rgb(108, 117, 125);
+    width: 90px; height: 50px; border: 1px solid rgb(108, 117, 125); border-radius: 5px;
+}
+.l3-download:hover { background-color: #f0f0f0; color: black; }
+
+
+.modern {
+    background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  
+  border-radius: 8px; 
+}
+
+.exercise-section {
+    margin-bottom: 40px;
+}
+
+.l2-linkedin {
+    background-color: rgb(10, 102, 194); color: white;
+    width: 200px; height: 45px; border-radius: 50px; border: none;
+}
+
+.l2-linkedin:hover { background-color: #928a8a; color: black; }
+
+.l2-save {
+    background-color: white; color: rgb(10, 102, 194);
+    width: 90px; height: 45px; border: 1px solid rgb(10, 102, 194); border-radius: 50px;
+}
+
+.l2-save:hover { background-color: #4e53ff; color: black; }

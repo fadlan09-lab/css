@@ -1,0 +1,152 @@
+/*12a.*/
+.flex-box-a {
+  display: flex;
+}
+
+.item1 {
+  background-color: lightblue;
+  height: 30px;
+  width: 200px;
+}
+
+.item2 {
+  background-color: lightpink;
+  height: 30px;
+  width: 75px;
+}
+
+/*12b*/
+.flex-box {
+  display: flex;
+  align-items: center; 
+}
+
+.a1 {
+  background-color: lightblue;
+  height: 30px;
+  width: 50px; 
+}
+
+.a2 {
+  background-color: pink;
+  height: 30px;
+  flex: 1;
+}
+
+.a3 {
+  background-color: lightblue;
+  height: 30px;
+  width: 75px; 
+}
+
+/*12c*/
+.flex-12c {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-12c .item {
+  background-color: lightpink;
+  height: 30px;
+}
+
+/*12d.*/
+.flex-12d {
+  display: flex;
+  height: 50px;
+  border: 1px solid gray;
+  
+
+  justify-content: space-between; 
+  
+  align-items: center; 
+}
+
+.flex-12d .item {
+  background-color: lightpink;
+}
+
+/*12e.*/
+.sidebar { width: 200px; border: 1px solid gray; padding: 10px; border-radius: 5px; }
+.menu-item {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 10px;
+}
+.badge {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+/*12f*/
+.home-text {
+  color: white;
+}
+
+.header {
+  display: flex;
+  background-color: rebeccapurple;
+  padding: 10px;
+  align-items: center;
+}
+.search-bar {
+  flex: 1;
+  margin: 0 15px;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px;
+}
+.download-btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 5px 15px;
+}
+
+/*12g*/
+
+/* Container-Luar */
+.card {
+  display: flex;             
+  align-items: center;      
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Foto-Profil */
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;       
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+
+.info-container {
+  display: flex;
+  flex-direction: column;    
+  flex: 1;                  
+}
+
+/* Teks */
+.name { font-weight: bold; margin: 0;}
+.username { color: gray; margin: 2px 0; }
+.stats { color: lightgray; font-size: 14px; margin: 0; }
+
+/* btn-Follow */
+.follow-button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

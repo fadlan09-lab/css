@@ -1,0 +1,109 @@
+.image-exercises img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover; 
+  margin-right: 20px;
+}
+
+.img-rounded {
+  border-radius: 15px;
+}
+
+.img-circle {
+  border-radius: 100px;
+}
+
+.search-rounded {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.search-shadow {
+  border: none;
+  padding: 12px 20px;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.linkedin-card {
+  width: 350px;
+  font-family: Arial;
+}
+
+.label {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.linkedin-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.privacy-text {
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.agree-button {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.twitter-box {
+  padding: 15px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  width: 500px;
+  border-radius: 10px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.tweet-input {
+  border: none;
+  font-size: 18px;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-input:focus {
+  outline: none;
+}
+
+.tweet-button {
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+
+
+.container {
+    margin-bottom: 30px;
+}

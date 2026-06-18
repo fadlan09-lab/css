@@ -1,0 +1,237 @@
+.tahoma-text {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;
+}
+
+.promo-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+
+.promo-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #ce0000;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.course-card {
+    max-width: 300px;
+}
+
+.course-header {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.course-sub {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #707070;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.course-text {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-green {
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.apple-style {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 400px;
+}
+
+.apple-headline {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.apple-info {
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.link-blue {
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.link-blue:hover {
+    text-decoration: underline;
+}
+
+
+
+hr {
+    margin: 40px 0;
+    border: 0;
+    border-top: 1px solid #ddd;
+}
+
+.apple-promo {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.new-label {
+    color: #f07e42;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.buy-button {
+    background-color: #0071e3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stock-container {
+    padding: 20px;
+}
+
+.stock-price {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.currency {
+    color: gray;
+    font-size: 16px;
+}
+
+.stock-change {
+    color: #1a8917;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.after-hours {
+    color: gray;
+}
+
+.negative-change {
+    color: #d93025;
+}
+
+.tweet-container {
+    max-width: 500px;
+    padding: 20px;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.handle {
+    color: gray;
+}
+
+.tweet-content {
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.mention {
+    color: #1d9bf0;
+    cursor: pointer;
+}
+
+.tesla-section {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.model-title {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.delivery-text {
+  font-size: 18px;
+  color: #393c41;
+}
+
+.touchless {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image-exercises img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.img-rounded {
+  border-radius: 15px;
+}
+
+.img-square {
+}
+
+.img-circle {
+  border-radius: 100px;
+}
+
+.search-rounded {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 8px 15px;
+  font-size: 16px;
+}
+
+.search-shadow {
+  border: none;
+  padding: 12px 20px;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}

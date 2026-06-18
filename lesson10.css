@@ -1,0 +1,270 @@
+
+/* 10a */
+
+/* biru-horizontal */
+.card {
+  outline: auto blue;
+  display: flex;           
+  align-items: center;       
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Foto-Profil */
+.profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;      
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+/* merah-vertikal */
+.info-container {
+  outline: auto red;
+  display: flex;
+  flex-direction: column;    
+  flex: 1;                   
+}
+
+/* Gaya Teks */
+.name { font-weight: bold; margin: 0; outline: auto red;}
+.username { color: gray; margin: 2px 0; outline: auto red; }
+.stats { color: lightgray; font-size: 14px; margin: 0; outline: auto red; }
+
+/* btn-Follow */
+.follow-button {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 10b */
+
+.container {
+  display: flex;             
+  align-items: center;      
+  background-color: white;
+  padding: 15px;
+  width: 400px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Foto-Profil */
+.profile-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;       
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+/* merah-vertikal */
+.container-sub {
+  display: flex;
+  flex-direction: column;    
+  flex: 1;                  
+}
+
+/* Teks */
+.nameb { font-weight: bold; margin: 0;  }
+.usernameb { color: gray; margin: 2px 0; }
+.statsb { color: lightgray; font-size: 14px; margin: 0; }
+
+/* btn-Follow */
+.btn-follow {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 10c */
+
+.container-yt {
+  display: flex;
+  justify-content:space-between;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-yt {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.thumb-image {
+  padding: 20px; height:125px; width:250px; display: flex;
+
+} 
+
+.container-text-yt {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.judul {
+  font-weight: 800;
+}
+
+.nama-chanel {
+  font-weight: 400;
+  line-height: 25px;
+}
+
+
+
+/* 10d */
+
+.space {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container-ig {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.ig {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+ font-family: 'Roboto', sans-serif;
+}
+
+.keterangan {
+    padding-left:5px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ig-animal {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+    margin-left: 15px;
+}
+
+.profile-animal {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+
+}
+
+.mutual-friend {
+  display: flex;
+}
+
+.mutual-pic {
+  padding-left: 5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.keterangan {
+    padding-left:5px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+.ig-kucing {
+    border: none;
+    outline: none;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    height: auto;
+    width: 170px;
+}
+
+.profile-kucing {
+    width: 170px;
+    height: 170px;
+}
+
+.name-friend {
+ padding-left: 5px;
+}
+
+.keterangan {
+    padding-left:5px;
+}
+
+.spasi {
+    line-height:10px;
+}
+
+.btn-AddFriend {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 0px;
+    height: auto;
+    width: auto;
+    border: none;
+    outline: none;
+    background-color:rgb(2, 111, 235);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: white;
+}
